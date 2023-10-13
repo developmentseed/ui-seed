@@ -1,4 +1,4 @@
-# UI Seed
+# UI Seed - DEPRECATED in favour of: https://github.com/developmentseed/ui-library-seed
 
 The following guide only explains how to include `ui-seed` in a new project.
 
