@@ -24,7 +24,7 @@
     "test": "echo \"No tests\" && exit 0"
   },
   "engines": {
-    "node": "8.x"
+    "node": ">= 18.x"
   },
   "browserify": {
     "transform": [
@@ -76,7 +76,7 @@
     "gulp-plumber": "^1.2.0",
     "gulp-rev": "^8.1.1",
     "gulp-rev-rewrite": "^1.1.1",
-    "gulp-sass": "^4.0.1",
+    "gulp-sass": "^5.1.0",
     "gulp-size": "^3.0.0",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify": "^3.0.0",
@@ -84,7 +84,7 @@
     "jeet": "7.1.0",
     "node-bourbon": "^4.2.8",
     "node-notifier": "^5.2.1",
-    "node-sass": "^4.9.0",
+    "node-sass": "^9.0.0",
     "require-globify": "^1.4.1",
     "run-sequence": "^2.2.1",
     "through2": "^2.0.3",
@@ -93,16 +93,16 @@
     "watchify": "^3.11.0"
   },
   "dependencies": {
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "react-scrollbar": "git+https://github.com/danielfdsilva/reactScrollbar.git#v2.0.0-custom",
-    "react-tether": "^1.0.1",
-    "react-transition-group": "^2.4.0"
+    "react-tether": "^3.0.3",
+    "react-transition-group": "^4.4.5"
   },
   "peerDependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-tether": "^1.0.1",
+    "react-tether": "^3.0.0",
     "react-transition-group": "^2.4.0"
   }
 }
